@@ -1,3 +1,6 @@
+import os, sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from crypto_toolkit import (
     sha256_hash,
     generate_fernet_key,
