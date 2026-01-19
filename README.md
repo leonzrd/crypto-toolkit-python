@@ -18,3 +18,8 @@ requirements.txt
 crypto_toolkit.py
 examples/
 demo.py
+
+## How to run
+```bash
+pip install -r requirements.txt
+python examples/demo.py
